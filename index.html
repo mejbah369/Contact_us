@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-50">
+    <header>
+        <div class="w-full">
+            <img src="./Frame 1000001239.png" class="w-full" />
+        </div>
+        <nav>
+            <div class="text-center py-1">
+                <ul class="flex justify-center gap-5">
+                    <li class="font-semibold">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+                    <li class="font-bold">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-center lg: py-12">
+            <h1 class="text-6xl font-bold font-serif">
+                Contact Us
+            </h1>
+            <p class="text-center">
+                Get in touch! Have a question or feedback? Use our contact form or drop us an email. We're here to help!
+            </p>
+        </div>
+    </header>
+    <main>
+        <section class="bg-stone-800 mx-96 my-30 p-20 text-black flex">
+            <div class="w-11/12 mx-48 mr-1 px-40 flex-1 flex-col justify-between items-center text-white">
+                <h2 class="font-serif text-1xl font-semibold">
+                    Get in touch with us
+                </h2>
+                <form class="">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Mejbah Uddin"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="lname" name="lname" placeholder="xyz@email.com"><br>
+                    <label for="message">Message:</label><br>
+                    <input type="text" id="message" name="message" placeholder="Type your message here....."><br><br>
+                </form>
+                <button class="bg-amber-400 px-2 py-2">
+                    <p>Send Message</p>
+                </button>
+            </div>
+            <div class="flex-1 px-40">
+                <img src="./map.png">
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
